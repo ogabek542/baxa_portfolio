@@ -19,39 +19,29 @@ const experince = {
     "I create photorealistic 3D visualizations for architectural projects, from concept to final render. I specialize in modeling, texturing, lighting, and post-production to bring exterior and interior designs to life for clients, architects, and marketers.",
   items: [
     {
-      company: "ArchViz Studio",
-      position: "3D Visualization Artist",
-      duration: "2023.05.01 - 2024.05.05",
-    },
-    {
       company: "Freelance",
       position: "3D Exterior & Interior Visualizer",
-      duration: "2024.05.05 - Present",
+      duration: "2020.05.01 - Present",
     },
   ],
 };
 
 // education data
-const education = {
-  icon: "",
+export const education = {
+  icon: "graduation-cap",
   title: "My Education",
   description:
-    "Formal training in design principles combined with specialized courses in 3D modeling, architectural visualization, and real-time rendering techniques. Continuously learning new tools and workflows to enhance visual quality and efficiency.",
+    "Specialized training in 3D visualization (interior & exterior) with Autodesk-certified coursework. Continuously improving skills in 3Ds Max, Corona Renderer, Photoshop, After Effects, and Marvelous Designer.",
   items: [
     {
-      institution: "Bukhara Institute of Engineering Technology",
-      degree: "Engineer-Programmer",
-      duration: "2016 - 2020",
+      institution: "3D Club,Ekaterinburg, Russia",
+      degree: "3D Visualizer — Interior & Exterior",
+      duration: "24.06.2023", // add year if you want (e.g., "2022")
     },
     {
-      institution: "CG Architect Masterclass",
-      degree: "Advanced Architectural Visualization",
-      duration: "2022",
-    },
-    {
-      institution: "Udemy / Skillshare",
-      degree: "Blender & 3ds Max Mastery",
-      duration: "2021 - 2022",
+      institution: "3D Club,Ekaterinburg, Russia",
+      degree: "Certified Specialist (Visualization)",
+      duration: "24.06.2023", // add year if you want
     },
   ],
 };

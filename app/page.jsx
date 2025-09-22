@@ -9,7 +9,9 @@ import Stats from "../components/Stats";
 const Home = () => {
   const handleDownloadPDF = async () => {
     try {
-      const response = await fetch("/assets/pdf/BaxtiyorResume.pdf");
+      const response = await fetch(
+        "/assets/pdf/BaxtiyorUsmonov-compressed.pdf"
+      );
 
       if (!response.ok) {
         throw new Error("PDF file not found");
