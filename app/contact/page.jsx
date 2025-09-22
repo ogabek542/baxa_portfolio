@@ -18,24 +18,23 @@ import {
 
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { Description } from "@radix-ui/react-dialog";
-
 import { motion } from "framer-motion";
 
 const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+998) 94 125 99 77",
+    description: "(+998) 93 654 52 38",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "otaxonovo22222@gmail.com",
+    description: "baxtiyoru1996@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "Karaulbazar Town , B.Nakshbandiy st 12 home",
+    description: "Karaulbazar Town , Bukhara Region",
   },
 ];
 
@@ -53,8 +52,8 @@ const Contact = () => {
   const [dialogType, setDialogType] = useState("success"); // 'success' | 'error'
   const [dialogMessage, setDialogMessage] = useState("");
 
-  const BOT_TOKEN = "8280470218:AAEWVkd_iRXvaZDN2-6HbGVs4LODfv0x3mQ";
-  const CHAT_ID = "6026141610";
+  const BOT_TOKEN = "8241355664:AAElEc48z90nugyJc5IoFFVCxLAw1drVhbM";
+  const CHAT_ID = "288387370";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -255,11 +254,14 @@ const Contact = () => {
                     <SelectContent>
                       <SelectGroup>
                         <SelectLabel>Select a service</SelectLabel>
-                        <SelectItem value="Web Development">
-                          Web Development
+                        <SelectItem value="Exterior Design">
+                          Exterior Design
                         </SelectItem>
-                        <SelectItem value="UI/UX Design">
-                          UI/UX Design
+                        <SelectItem value="Interior Design">
+                          Interior Design
+                        </SelectItem>
+                        <SelectItem value="3D Modelling">
+                          3D Modelling
                         </SelectItem>
                         <SelectItem value="Logo Design">Logo Design</SelectItem>
                         <SelectItem value="Other services">

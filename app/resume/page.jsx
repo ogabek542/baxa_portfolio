@@ -1,29 +1,31 @@
 "use client";
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
+// Remove web dev icons, import 3D software and tool icons
+import { FaBlender, FaUnity } from "react-icons/fa";
 import {
-  SiTailwindcss,
-  SiNextdotjs,
-  SiRedux,
-  SiTypescript,
-  SiSass,
-  SiJquery,
+  SiUnrealengine,
+  SiSubstack,
+  SiAdobephotoshop,
+  SiAdobeaftereffects,
 } from "react-icons/si";
+import { RiSketching } from "react-icons/ri";
+// You might need to install `react-icons/gi` for Game Icons
+import { GiMaterialsScience } from "react-icons/gi";
 
 // experience data
 const experince = {
   icon: "",
-  title: "My experience",
+  title: "My Experience",
   description:
-    "I build production-ready frontends with React/Next.js, translating ideas into performant, accessible UIs. I collaborate across teams, ship features end‑to‑end, and focus on clean code, reusability, and measurable results.",
+    "I create photorealistic 3D visualizations for architectural projects, from concept to final render. I specialize in modeling, texturing, lighting, and post-production to bring exterior and interior designs to life for clients, architects, and marketers.",
   items: [
     {
-      company: "SoftWhere Company.",
-      position: "Frontend Developer",
+      company: "ArchViz Studio",
+      position: "3D Visualization Artist",
       duration: "2023.05.01 - 2024.05.05",
     },
     {
-      company: "National Bank Of Uzbekistan",
-      position: "Frontend Developer",
+      company: "Freelance",
+      position: "3D Exterior & Interior Visualizer",
       duration: "2024.05.05 - Present",
     },
   ],
@@ -34,7 +36,7 @@ const education = {
   icon: "",
   title: "My Education",
   description:
-    "Grounded in engineering fundamentals and sharpened through modern web courses—combining theory with hands‑on projects to build robust, scalable interfaces.",
+    "Formal training in design principles combined with specialized courses in 3D modeling, architectural visualization, and real-time rendering techniques. Continuously learning new tools and workflows to enhance visual quality and efficiency.",
   items: [
     {
       institution: "Bukhara Institute of Engineering Technology",
@@ -42,68 +44,57 @@ const education = {
       duration: "2016 - 2020",
     },
     {
-      institution: "Rise Academy center of modern languages",
-      degree: "English language Course",
-      duration: "2021 - 2022",
+      institution: "CG Architect Masterclass",
+      degree: "Advanced Architectural Visualization",
+      duration: "2022",
     },
     {
-      institution: "SoffStudy modern vocational training center",
-      degree: "Frontend Programming Cource",
-      duration: "2022 - 2023",
+      institution: "Udemy / Skillshare",
+      degree: "Blender & 3ds Max Mastery",
+      duration: "2021 - 2022",
     },
   ],
 };
 
 // skills data
 const skills = {
-  title: "My skills",
+  title: "My Skills & Tools",
   description:
-    "Practical, production‑ready front‑end skills: semantic HTML, modern CSS, React/Next.js, state management, TypeScript, and performance/SEO best practices.",
+    "Proficient in the full 3D pipeline: high-poly modeling, UV unwrapping, PBR texturing, lighting, rendering, and post-production. Focused on creating efficient, realistic, and visually compelling imagery.",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <FaBlender />, // For Blender
+      name: "Blender",
     },
     {
-      icon: <FaCss3 />,
-      name: "css 3",
+      icon: <SiUnrealengine />, // For Unreal Engine
+      name: "Unreal Engine",
     },
     {
-      icon: <FaJs />,
-      name: "javascript",
+      icon: <SiSubstack />, // Commonly used for 3ds Max
+      name: "3ds Max",
     },
     {
-      icon: <FaReact />,
-      name: "react.js",
+      icon: <SiAdobephotoshop />, // For Photoshop (essential for post-processing)
+      name: "Photoshop",
     },
     {
-      icon: <SiNextdotjs />,
-      name: "next.js",
+      icon: <GiMaterialsScience />, // Represents Substance Painter/Designer
+      name: "Substance Suite",
     },
     {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      icon: <SiAdobeaftereffects />, // For After Effects (for animations)
+      name: "After Effects",
     },
     {
-      icon: <SiRedux />,
-      name: "redux",
+      icon: <FaUnity />, // For Unity (another real-time tool)
+      name: "Unity",
     },
     {
-      icon: <SiTypescript />,
-      name: "typescript",
+      icon: <RiSketching />, // Represents sketching or concepting
+      name: "Concept Art",
     },
-    {
-      icon: <SiSass />,
-      name: "sass",
-    },
-    {
-      icon: <SiJquery />,
-      name: "jquery",
-    },
-    {
-      icon: <FaFigma />,
-      name: "figma",
-    },
+    // Add more skills like V-Ray, Corona, AutoCAD, etc., as needed.
   ],
 };
 
@@ -115,19 +106,19 @@ const about = {
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Ogabek Otakhonov",
+      fieldValue: "Bakhtiyor Usmonov",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+998) 94 125 99 77",
+      fieldValue: "(+998) 93 654 52 38",
     },
     {
       fieldName: "Experience",
-      fieldValue: "2 years",
+      fieldValue: "4 years",
     },
     {
-      fieldName: "Skype",
-      fieldValue: "ogabek.2102",
+      fieldName: "Telegram",
+      fieldValue: "@baxtiyoru",
     },
     {
       fieldName: "Nationality",
@@ -135,7 +126,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "otaxonovo22222@gmail.com",
+      fieldValue: "baxtiyoru1996@gmail.com",
     },
     {
       fieldName: "Freelance",
@@ -143,7 +134,7 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English,Uzbek",
+      fieldValue: "Russian,Uzbek",
     },
   ],
 };

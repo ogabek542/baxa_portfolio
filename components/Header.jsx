@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import Nav from "./Nav";
@@ -11,7 +11,7 @@ const Header = () => {
         {/* <---- Logo ----> */}
         <Link href="/">
           <h1 className="text-4xl font-semibold">
-            OGABEK<span className="text-accent">.</span>
+            BAKHTIYOR<span className="text-accent">.</span>
           </h1>
         </Link>
         {/* <---- desktop nav && hire me  button----> */}
@@ -23,11 +23,11 @@ const Header = () => {
         </div>
         {/* <--- Mobile Nav ----> */}
         <div className="xl:hidden">
-            <MobileNav/>
+          <MobileNav />
         </div>
       </div>
     </header>
   );
 };
- 
+
 export default Header;

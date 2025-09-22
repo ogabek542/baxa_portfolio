@@ -9,7 +9,7 @@ import Stats from "../components/Stats";
 const Home = () => {
   const handleDownloadPDF = async () => {
     try {
-      const response = await fetch("/assets/pdf/OgabekResumeHackerresume .pdf");
+      const response = await fetch("/assets/pdf/BaxtiyorResume.pdf");
 
       if (!response.ok) {
         throw new Error("PDF file not found");
@@ -20,7 +20,7 @@ const Home = () => {
 
       const link = document.createElement("a");
       link.href = url;
-      link.download = "OgabekResume.pdf";
+      link.download = "BaxtiyorResume.pdf";
       document.body.appendChild(link);
       link.click();
 

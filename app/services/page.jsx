@@ -7,30 +7,30 @@ import { Item } from "@radix-ui/react-select";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Exterior Visualization",
     desctiption:
-      "Build fast, responsive, and scalable web apps with Next.js/React, clean APIs, and modern tooling—optimized for performance, accessibility, and SEO.",
+      "Create photorealistic 3D renderings of building exteriors, landscapes, and architectural projects. From concept to final image, I focus on accurate lighting, materials, and environment to showcase your design in its best light.",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Interior Visualization",
     desctiption:
-      "Design user-centered interfaces from research to high‑fidelity prototypes—clear flows, consistent design systems, and accessible experiences that convert.",
+      "Bring interior spaces to life with high-quality 3D renders. I specialize in crafting realistic lighting moods, detailed textures, and authentic furnishings to create compelling and inviting visualizations for presentations and marketing.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "3D Modeling & Texturing",
     desctiption:
-      "Craft distinctive, scalable logos that reflect your brand’s voice—delivered with versatile assets and usage guidelines for any platform.",
+      "Build accurate and optimized 3D models of architecture, furniture, and props. I create high-quality, tileable textures and materials to ensure realism and detail in every scene.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Animation & Walkthroughs",
     desctiption:
-      "Improve discoverability with technical SEO, Core Web Vitals tuning, structured data, on‑page optimization, and analytics-driven growth.",
+      "Produce dynamic video flythroughs and walkthroughs that tell a story. Animate cameras, lighting, and elements to create an immersive experience that allows clients to explore the space before it's built.",
     href: "",
   },
 ];
