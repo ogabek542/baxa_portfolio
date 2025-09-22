@@ -1,12 +1,23 @@
 // "use client"
-import Link from 'next/link'
-import { FaGithub, FaLinkedin, FaInstagram, FaTelegram } from 'react-icons/fa';
+import Link from "next/link";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaTelegram,
+  FaBehanceSquare,
+} from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, path: 'https://github.com/ogabek542' },
-  { icon: <FaLinkedin />, path: 'https://www.linkedin.com/in/ogabek-otaxonov-10b26025b/' },
-  { icon: <FaInstagram />, path: 'https://www.instagram.com/og.abek437/' },
-  { icon: <FaTelegram />, path: 'https://t.me/Assassin_0221' },
+  {
+    icon: <FaBehanceSquare />,
+    path: "https://www.behance.net/baxtiyorusmonov1996",
+  },
+  {
+    icon: <FaInstagram />,
+    path: "https://www.instagram.com/architecture_u14?utm_source=qr&igsh=b2NvZTZsd2ttODZm",
+  },
+  { icon: <FaTelegram />, path: "https://t.me/baxtiyoru" },
 ];
 
 const Socials = ({ containerStyles, iconStyles }) => {

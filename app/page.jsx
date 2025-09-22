@@ -39,14 +39,16 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Frontend Developer</span>
+            <span className="text-xl">Exterior & Interior 3D Visualizer</span>
             <h1 className="h1 mb-6">
               Hello I'm <br />
-              <span className="text-accent">Ogabek Otakhonov</span>
+              <span className="text-accent">Bakhityor Usmonov</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am
-              proficient in various programming language and technologies.
+              I excel at crafting elegant and realistic digital visualizations,
+              specializing in exterior and interior design. Proficient in modern
+              3D visualization tools and technologies, I transform concepts into
+              compelling visual experiences.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8 ">
