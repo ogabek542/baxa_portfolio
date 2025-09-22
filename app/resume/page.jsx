@@ -27,7 +27,7 @@ const experince = {
 };
 
 // education data
-export const education = {
+const education = {
   icon: "graduation-cap",
   title: "My Education",
   description:
