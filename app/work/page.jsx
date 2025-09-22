@@ -30,8 +30,13 @@ const projects = [
     category: "Exterior",
     title: "project 1",
     description:
-      "Responsive landing page with semantic HTML, modern CSS, and vanilla JS interactions—optimized for performance and accessibility.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Modern house exterior: clean facade modeling, PBR materials, daylight setup with Corona Sun+Sky and HDRI. Vegetation scattering and subtle post-grading for a natural photographic look.",
+    stack: [
+      { name: "3ds Max" },
+      { name: "Corona Renderer" },
+      { name: "HDRI Lighting" },
+      { name: "Photoshop" },
+    ],
     image: "/assets/work/job1.png",
     live: "https://www.behance.net/gallery/222488227/Exteriors/modules/1269983893",
     github: "https://www.behance.net/gallery/222488227/Exteriors",
@@ -41,8 +46,13 @@ const projects = [
     category: "Exterior",
     title: "project 2",
     description:
-      "Interactive dashboard featuring reusable components, charts, and stateful UI—clean layout and mobile‑first design.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Residential exterior visualization: accurate proportions, realistic glass/wood shaders, soft shadows, and camera composition for marketing stills in 4K.",
+    stack: [
+      { name: "3ds Max" },
+      { name: "Corona Renderer" },
+      { name: "Corona Scatter" },
+      { name: "Photoshop" },
+    ],
     image: "/assets/work/job2.png",
     live: "https://www.behance.net/gallery/181961245/3D-vizualizacija-eksterera/modules/1027884645",
     github:
@@ -53,8 +63,13 @@ const projects = [
     category: "Interior",
     title: "project 3",
     description:
-      "E‑commerce front end with product listings, filters, and cart UI—fast UX, accessible forms, and clear micro‑interactions.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Cozy living space: furniture modeling, fabric simulation, physically-based materials, balanced daylight and artificial lighting; clean color grading for print-ready renders.",
+    stack: [
+      { name: "3ds Max" },
+      { name: "Corona Renderer" },
+      { name: "Marvelous Designer" },
+      { name: "Photoshop" },
+    ],
     image: "/assets/work/job3.png",
     live: "https://www.behance.net/gallery/181960877/3D-vizualizacija-interera/modules/1027882703",
     github:
@@ -65,8 +80,13 @@ const projects = [
     category: "Exterior",
     title: "project 4",
     description:
-      "Portfolio SPA with smooth animations, route transitions, and component‑driven architecture—focused on readability and reuse.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Mountain church concept: stone/metal material work, atmospheric depth with volumetric fog, cinematic golden-hour lighting, and landscape blending.",
+    stack: [
+      { name: "3ds Max" },
+      { name: "Corona Renderer" },
+      { name: "Volumetrics" },
+      { name: "Photoshop" },
+    ],
     image: "/assets/work/job4.png",
     live: "https://www.behance.net/gallery/177032985/Church-in-the-mountains/modules/999906397",
     github: "https://www.behance.net/gallery/177032985/Church-in-the-mountains",
@@ -76,8 +96,13 @@ const projects = [
     category: "Interior",
     title: "project 5",
     description:
-      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Scandinavian IKEA-style interior: neutral palette, soft GI, detailed textiles and wood grain, with lifestyle props for realistic storytelling.",
+    stack: [
+      { name: "3ds Max" },
+      { name: "Corona Renderer" },
+      { name: "Marvelous Designer" },
+      { name: "Photoshop" },
+    ],
     image: "/assets/work/job5.png",
     live: "https://www.behance.net/gallery/173665863/interer-Ikea/modules/980463931",
     github: "https://www.behance.net/gallery/173665863/interer-Ikea",
@@ -87,8 +112,13 @@ const projects = [
     category: "Exterior",
     title: "project 5",
     description:
-      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Private house exterior: accurate CAD-to-3D translation, realistic concrete/wood shaders, lawn and shrubs scattering, and balanced sky reflections.",
+    stack: [
+      { name: "3ds Max" },
+      { name: "Corona Renderer" },
+      { name: "Corona Scatter" },
+      { name: "Photoshop" },
+    ],
     image: "/assets/work/job6.png",
     live: "https://www.behance.net/gallery/172304199/Private-house/modules/972515337",
     github: "https://www.behance.net/gallery/172304199/Private-house",
@@ -98,8 +128,13 @@ const projects = [
     category: "Exterior",
     title: "project 5",
     description:
-      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Minimalist villa: strong volumes, crisp edges, reflective pools and glazing, controlled highlights; daylight and dusk variants for mood exploration.",
+    stack: [
+      { name: "3ds Max" },
+      { name: "Corona Renderer" },
+      { name: "HDRI Lighting" },
+      { name: "Photoshop" },
+    ],
     image: "/assets/work/job7.png",
     live: "https://www.behance.net/gallery/158527661/minimalist-house/modules/894430321",
     github: "https://www.behance.net/gallery/158527661/minimalist-house",
@@ -109,8 +144,13 @@ const projects = [
     category: "Interior",
     title: "project 5",
     description:
-      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Modern interior concept: custom furniture modeling, layered lighting (key/fill/accent), and precise color management for consistent series output.",
+    stack: [
+      { name: "3ds Max" },
+      { name: "Corona Renderer" },
+      { name: "Marvelous Designer" },
+      { name: "Photoshop" },
+    ],
     image: "/assets/work/job8.png",
     live: "https://www.behance.net/gallery/158527149/inrerior-design/modules/894427795",
     github: "https://www.behance.net/gallery/158527149/inrerior-design",
@@ -120,8 +160,13 @@ const projects = [
     category: "Interior",
     title: "project 5",
     description:
-      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Living room design: realistic upholstery and rugs, correct IOR for glass/metals, warm accent lighting, and subtle AO for depth.",
+    stack: [
+      { name: "3ds Max" },
+      { name: "Corona Renderer" },
+      { name: "Marvelous Designer" },
+      { name: "Photoshop" },
+    ],
     image: "/assets/work/job9.png",
     live: "https://www.behance.net/gallery/158525503/living-room-design/modules/894419103",
     github: "https://www.behance.net/gallery/158525503/living-room-design",
@@ -131,8 +176,12 @@ const projects = [
     category: "Interior",
     title: "project 5",
     description:
-      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Contemporary interior visual: balanced materials (stone/wood/fabric), linear-workflow color, and clean post-production for portfolio plates.",
+    stack: [
+      { name: "3ds Max" },
+      { name: "Corona Renderer" },
+      { name: "Photoshop" },
+    ],
     image: "/assets/work/job10.png",
     live: "https://www.behance.net/gallery/158524249/inrerior-design-3d/modules/894412707",
     github: "https://www.behance.net/gallery/158524249/inrerior-design-3d",
@@ -142,8 +191,13 @@ const projects = [
     category: "Interior",
     title: "project 5",
     description:
-      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Designer’s house interior: bespoke cabinetry, realistic metals and stones, mixed lighting scenario (day/evening), and polished color grading.",
+    stack: [
+      { name: "3ds Max" },
+      { name: "Corona Renderer" },
+      { name: "Photoshop" },
+      { name: "After Effects" }, // for simple camera fly-throughs if needed
+    ],
     image: "/assets/work/job11.png",
     live: "https://www.behance.net/gallery/114649191/interer-dizajnerov-doma/modules/654600227",
     github: "https://www.behance.net/gallery/114649191/interer-dizajnerov-doma",
