@@ -1,12 +1,6 @@
 // "use client"
 import Link from "next/link";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaInstagram,
-  FaTelegram,
-  FaBehanceSquare,
-} from "react-icons/fa";
+import { FaInstagram, FaTelegram, FaBehanceSquare } from "react-icons/fa";
 
 const socials = [
   {

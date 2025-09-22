@@ -7,6 +7,13 @@ import "swiper/css";
 // import icon
 import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 import {
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaTelegram,
+  FaBehanceSquare,
+} from "react-icons/fa";
+import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
@@ -20,58 +27,126 @@ import WorksSliderBtns from "../../components/WorksSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "Exterior",
     title: "project 1",
     description:
       "Responsive landing page with semantic HTML, modern CSS, and vanilla JS interactions—optimized for performance and accessibility.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/project111.png",
-    live: "",
-    github: "",
+    image: "/assets/work/job1.png",
+    live: "https://www.behance.net/gallery/222488227/Exteriors/modules/1269983893",
+    github: "https://www.behance.net/gallery/222488227/Exteriors",
   },
   {
     num: "02",
-    category: "frontend",
+    category: "Exterior",
     title: "project 2",
     description:
       "Interactive dashboard featuring reusable components, charts, and stateful UI—clean layout and mobile‑first design.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/project222.webp",
-    live: "",
-    github: "",
+    image: "/assets/work/job2.png",
+    live: "https://www.behance.net/gallery/181961245/3D-vizualizacija-eksterera/modules/1027884645",
+    github:
+      "https://www.behance.net/gallery/181961245/3D-vizualizacija-eksterera",
   },
   {
     num: "03",
-    category: "frontend",
+    category: "Interior",
     title: "project 3",
     description:
       "E‑commerce front end with product listings, filters, and cart UI—fast UX, accessible forms, and clear micro‑interactions.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/project333.png",
-    live: "",
-    github: "",
+    image: "/assets/work/job3.png",
+    live: "https://www.behance.net/gallery/181960877/3D-vizualizacija-interera/modules/1027882703",
+    github:
+      "https://www.behance.net/gallery/181960877/3D-vizualizacija-interera",
   },
   {
     num: "04",
-    category: "frontend",
+    category: "Exterior",
     title: "project 4",
     description:
       "Portfolio SPA with smooth animations, route transitions, and component‑driven architecture—focused on readability and reuse.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/project444.jpg",
-    live: "",
-    github: "",
+    image: "/assets/work/job4.png",
+    live: "https://www.behance.net/gallery/177032985/Church-in-the-mountains/modules/999906397",
+    github: "https://www.behance.net/gallery/177032985/Church-in-the-mountains",
   },
   {
     num: "05",
-    category: "frontend",
+    category: "Interior",
     title: "project 5",
     description:
       "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/project555.webp",
-    live: "",
-    github: "",
+    image: "/assets/work/job5.png",
+    live: "https://www.behance.net/gallery/173665863/interer-Ikea/modules/980463931",
+    github: "https://www.behance.net/gallery/173665863/interer-Ikea",
+  },
+  {
+    num: "06",
+    category: "Exterior",
+    title: "project 5",
+    description:
+      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+    image: "/assets/work/job6.png",
+    live: "https://www.behance.net/gallery/172304199/Private-house/modules/972515337",
+    github: "https://www.behance.net/gallery/172304199/Private-house",
+  },
+  {
+    num: "07",
+    category: "Exterior",
+    title: "project 5",
+    description:
+      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+    image: "/assets/work/job7.png",
+    live: "https://www.behance.net/gallery/158527661/minimalist-house/modules/894430321",
+    github: "https://www.behance.net/gallery/158527661/minimalist-house",
+  },
+  {
+    num: "08",
+    category: "Interior",
+    title: "project 5",
+    description:
+      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+    image: "/assets/work/job8.png",
+    live: "https://www.behance.net/gallery/158527149/inrerior-design/modules/894427795",
+    github: "https://www.behance.net/gallery/158527149/inrerior-design",
+  },
+  {
+    num: "09",
+    category: "Interior",
+    title: "project 5",
+    description:
+      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+    image: "/assets/work/job9.png",
+    live: "https://www.behance.net/gallery/158525503/living-room-design/modules/894419103",
+    github: "https://www.behance.net/gallery/158525503/living-room-design",
+  },
+  {
+    num: "10",
+    category: "Interior",
+    title: "project 5",
+    description:
+      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+    image: "/assets/work/job10.png",
+    live: "https://www.behance.net/gallery/158524249/inrerior-design-3d/modules/894412707",
+    github: "https://www.behance.net/gallery/158524249/inrerior-design-3d",
+  },
+  {
+    num: "11",
+    category: "Interior",
+    title: "project 5",
+    description:
+      "Blog/CMS UI with article cards, pagination, and search—clean typography, dark mode, and keyboard‑friendly navigation.",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+    image: "/assets/work/job11.png",
+    live: "https://www.behance.net/gallery/114649191/interer-dizajnerov-doma/modules/654600227",
+    github: "https://www.behance.net/gallery/114649191/interer-dizajnerov-doma",
   },
 ];
 
@@ -153,10 +228,10 @@ const Work = () => {
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsGithub className="text-white text-3xl group-hover:text-accent " />
+                        <FaBehanceSquare className="text-white text-3xl group-hover:text-accent " />
                       </TooltipTrigger>
                       <TooltipContent>
-                        <p>Github repository</p>
+                        <p>Behance repository</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
