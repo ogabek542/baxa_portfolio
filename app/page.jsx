@@ -44,7 +44,7 @@ const Home = () => {
             <span className="text-xl">Exterior & Interior 3D Visualizer</span>
             <h1 className="h1 mb-6">
               Hello I'm <br />
-              <span className="text-accent">Bakhityor Usmonov</span>
+              <span className="text-accent">Bakhtiyor Usmonov</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I excel at crafting elegant and realistic digital visualizations,
