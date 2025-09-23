@@ -58,7 +58,7 @@ const Home = () => {
                 className="uppercase flex items-center gap-2"
                 onClick={handleDownloadPDF}
               >
-                <span>Download CV</span>
+                <span>Download PORTFOLIO</span>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0 ">
