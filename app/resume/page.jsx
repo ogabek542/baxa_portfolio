@@ -92,7 +92,7 @@ const skills = {
 const about = {
   title: "About me",
   description:
-    "I’m a Frontend Developer focused on crafting clean, accessible, and high‑performance web apps with React/Next.js. I love turning complex ideas into simple, usable interfaces that drive real business impact.",
+    "I’m a 3D visualizer focused on interior and exterior design. With 3ds Max + Corona, I create accurate models, balanced lighting, and tactile materials to deliver photorealistic images, animations, and walkthroughs. My goal is simple: turn complex concepts into clear visuals that speed approvals and cut rework.",
   info: [
     {
       fieldName: "Name",
